@@ -334,6 +334,19 @@ img {
 /* ======================КОНЕЦ ФУТЕРА===================== */
 
 /* =========================ГЛАВНАЯ ПОРТФОЛИО================== */
+.nav-btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 0 50px 0; */
+  /* padding: 0; */
+  /* list-style: none; */
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.navigation-btn-list-item:not(:last-child) {
+  margin-right: 8px;
+}
 .nav-btn-list-but {
   font-weight: 500;
   font-size: 16px;
@@ -347,6 +360,17 @@ img {
 .nav-btn-list-but:focus {
   background: var(--accent-color);
   color: #ffffff;
+}
+.elements-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.elements-list-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .elements-list-title {
   font-weight: 700;
