@@ -46,6 +46,32 @@ img {
   color: var(--accent-color);
 }
 /* =======================ШАПКА============================ */
+/* .header {
+} */
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.logo-link {
+  margin-right: 93px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .web {
   font-family: var(--secondary-font);
 
@@ -85,6 +111,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: auto;
 
   color: #212121;
 }
