@@ -53,6 +53,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .logo-link {
   margin-right: 93px;
@@ -242,6 +243,7 @@ img {
 .members {
   margin-top: 47px;
   margin-bottom: 47px;
+  background-color: #f5f4fa;
 }
 .members-title {
   text-align: center;
@@ -349,6 +351,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: 1px solid transparent;
+  border-radius: 4px;
 
   letter-spacing: 0.03em;
 
@@ -377,6 +381,8 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #eee;
+  border-top: none;
 }
 .elements-list-title {
   font-weight: 700;
