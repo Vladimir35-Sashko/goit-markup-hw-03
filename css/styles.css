@@ -167,24 +167,26 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 47px;
 }
 .hero {
   background-color: #2f303a;
+  margin: 0;
 }
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
+  max-width: calc(100% / 1.72);
+  margin: 0 auto 30px auto;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
 
   color: #ffffff;
 }
 .modal-btn {
+  display: block;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -198,12 +200,12 @@ img {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
+  border: transparent;
   border-radius: 4px;
 }
 .privelegius {
-  margin-top: 47px;
-  margin-bottom: 47px;
+  margin: 0;
+  padding: 94px 0;
 }
 .privelegius-title {
   margin-bottom: 10px;
@@ -229,6 +231,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
+  margin: 0;
 
   letter-spacing: 0.03em;
 
@@ -247,8 +250,8 @@ img {
   color: #212121;
 }
 .about {
-  margin-top: 47px;
-  margin-bottom: 47px;
+  margin: 0;
+  padding-bottom: 94px;
 }
 .about-list {
   display: flex;
@@ -262,8 +265,12 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
+.about-list-img {
+  display: block;
+  max-width: 100%;
+}
 .members {
-  margin-top: 47px;
+  margin: 0;
 
   background-color: #f5f4fa;
   padding-top: 94px;
@@ -290,10 +297,18 @@ img {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+}
+.members-list-foto {
+  display: block;
+  max-width: 100%;
 }
 .members-list-wrapper {
   padding-top: 30px;
-  padding-bottom: 47px;
+  padding-bottom: 30px;
 }
 .name-title {
   font-weight: 500;
@@ -360,22 +375,27 @@ img {
 /* ======================КОНЕЦ ФУТЕРА===================== */
 
 /* =========================ГЛАВНАЯ ПОРТФОЛИО================== */
+.nav-btn {
+  margin: 0;
+  padding: 94px 0;
+}
 .nav-btn-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 
-  padding-top: 94px;
-  padding-bottom: 50px;
+  justify-content: center;
+  margin: 0 0 50px 0;
+  padding: 0;
 }
 .navigation-btn-list-item:not(:last-child) {
   margin-right: 8px;
 }
 .nav-btn-list-but {
+  display: block;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  border: 1px solid transparent;
+  border: transparent;
   border-radius: 4px;
 
   letter-spacing: 0.03em;
@@ -399,16 +419,18 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
-.elements-list-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
   border: 1px solid #eee;
-  border-top: none;
 }
+.elements-list-img {
+  display: block;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 0 20px 0;
+}
+
 .elements-list-title {
+  margin: 0 0 4px 0;
+  padding: 0 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -418,6 +440,8 @@ img {
   color: #212121;
 }
 .elements-list-progects {
+  margin: 0 0 20px 0;
+  padding: 0 24px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
