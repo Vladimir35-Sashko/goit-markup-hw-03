@@ -341,6 +341,7 @@ img {
 }
 
 .footer-logo {
+  display: block;
   margin-top: 60px;
   margin-bottom: 20px;
   font-family: var(--secondary-font);
