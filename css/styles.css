@@ -47,13 +47,14 @@ img {
 }
 /* =======================ШАПКА============================ */
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 0;
+  margin: 0;
+
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 .logo-link {
   margin-right: 93px;
@@ -97,11 +98,27 @@ img {
 
   color: #000000;
 }
+.header-contacts-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+.header-contacts-list-item + .header-contacts-list-item {
+  margin-left: 50px;
+}
+.header-contacts-link {
+  display: block;
+  padding: 32px 0;
+}
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: block;
+  padding: 32px 0;
 
   color: #212121;
 }
@@ -114,8 +131,6 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-left: auto;
-  margin-right: 50px;
 
   color: #212121;
 }
@@ -177,6 +192,7 @@ img {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
 }
 .privelegius {
@@ -242,8 +258,10 @@ img {
 }
 .members {
   margin-top: 47px;
-  margin-bottom: 47px;
+
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .members-title {
   text-align: center;
